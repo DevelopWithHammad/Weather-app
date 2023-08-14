@@ -62,14 +62,14 @@ body {
 /* submitBtn hover effect */
 #submitBtn:hover {
     background-color: rgb(97, 239, 255);
-   border: 1px solid rgb(97, 239, 255);
+    border: 1px solid rgb(97, 239, 255);
 }
 
 
 /* submitBtn active effect */
 #submitBtn:active {
     background-color: rgb(4, 184, 205);
-   border: 1px solid rgb(4, 184, 205);
+    border: 1px solid rgb(4, 184, 205);
 }
 
 
@@ -105,8 +105,6 @@ body {
 .temp {
     font-size: 80px;
     margin-top: -10px;
-
-    /* font-weight: 500; */
 }
 
 

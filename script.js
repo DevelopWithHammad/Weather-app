@@ -1,35 +1,3 @@
-// let userInput = document.querySelector("#userInput")
-// function weatherHandler() {
-//     console.log("weatherHandler is running!!!!");
-//     console.log(userInput.value);
-
-//     let API_KEY = "08db29924c7dd38aae65fcfbb8e53a77"
-//     axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${userInput.value}&appid=${API_KEY}&units=metric`)
-//         .then(function (response) {
-//             // handle success
-//             console.log(response.data);
-//             document.querySelector("#result").innerHTML = `Current Temperature of ${userInput.value} is ${response.data.main.temp}°C `
-//         })
-//         .catch(function (error) {
-//             // handle error
-//             console.log(error.data);
-//             document.querySelector("#result").innerHTML = "weather data not retrieved"
-//         })
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const apiKey = "08db29924c7dd38aae65fcfbb8e53a77";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
 const userInputCity = document.querySelector("#userInputCity")
