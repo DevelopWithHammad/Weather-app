@@ -32,7 +32,7 @@
 
 const apiKey = "08db29924c7dd38aae65fcfbb8e53a77";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
-const userInputCity = document.querySelector("#userInput")
+const userInputCity = document.querySelector("#userInputCity")
 const checkWeatherBtn = document.querySelector("#submitBtn")
 const weatherIcon = document.querySelector(".weatherIcon")
 
@@ -64,6 +64,8 @@ async function checkWeather(city) {
     else if (data.weather[0].main === "Mist") {
         weatherIcon.src = "assests/mist.png"
     }
+
+    document.querySelector("#resultDiv").style.display = "block"
 
 }
 checkWeatherBtn.addEventListener("click", () => {
